@@ -1,0 +1,3 @@
+Products: 상품갯수 카운트 *리덕스모듈
+Display: Products 사본(데이터 공유)
+Carts: 장바구니 카운트 *리덕스모듈

@@ -10,13 +10,14 @@ const productReducer = (state = initState, action) => {
     case ADD_PRODUCT:
       return {
         state,
-        count: state.count + 1,
+        count: state.count + action.payload,
       };
     case REMOVE_PRODUCT:
       return {
         state,
-        count: state.count - 1,
+        count: state.count - action.payload,
       };
+    
     default:
       return state;
   }
